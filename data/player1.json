@@ -1,0 +1,40 @@
+{
+    "player": {
+      "id": 35931,
+      "name": "Sebasti\u00e1n Sosa",
+      "photo": "https://media.api-sports.io/football/players/35931.png"
+    },
+    "statistics": [
+      {
+        "games": {
+          "minutes": 90,
+          "number": 13,
+          "position": "G",
+          "rating": "6.3",
+          "captain": false,
+          "substitute": false
+        },
+        "offsides": null,
+        "shots": { "total": 0, "on": 0 },
+        "goals": {
+          "total": null,
+          "conceded": 1,
+          "assists": null,
+          "saves": 1
+        },
+        "passes": { "total": 17, "key": 0, "accuracy": "68%" },
+        "tackles": { "total": null, "blocks": 0, "interceptions": 0 },
+        "duels": { "total": 0, "won": 0 },
+        "dribbles": { "attempts": 0, "success": 0, "past": null },
+        "fouls": { "drawn": 0, "committed": 0 },
+        "cards": { "yellow": 0, "red": 0 },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": 0,
+          "missed": 0,
+          "saved": 0
+        }
+      }
+    ]
+  }

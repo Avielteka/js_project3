@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="team.css"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body onload="loadTeamData()">
+    <header>
+        <nav class="bg-dark">
+          <ul class="container-flud d-flex">
+            <li class="col-2"><a href="../home/home.html">home</a></li>
+            <li class="col-2"><a href="#">our players</a></li>
+            <li class="col-2"><a href="team.html">Team</a></li>
+            <li class="col-2"><a href="#">vition</a></li>
+            <li class="col-2"><a href="#">contact us</a></li>
+            <li class="col-2"><a href="#">search</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h2 class="text-center mt-2">our common Team</h2>
+        <input type="text" class="form-control mt-3 mx-auto" id="myinput"  placeholder="search a player" style="width:30%;">
+        <div class="container">
+          <h3 class="text-danger mt-5 text-center" id="para" style="display:none;">not found</h3>
+          <div class="row mt-3" id="card"></div>
+        </div>
+        <div id="card1" class="row mt-3" ></div>
+      </main>
+      
+</body>
+<script src="../service/teamFetch.js"></script>
+</html>
