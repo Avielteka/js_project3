@@ -22,6 +22,8 @@ async function showTeam(data){
 				<h4 class="text-capitalize text-center">${element.team.name}</h4>
 				<img src="${element.team.logos[0].href}">
 				<h4 class="text-capitalize text-center">${element.stats[0].name}:${element.stats[0].displayValue}</h4>
+				<h4 class="text-capitalize text-center">lose : 13 </h4>
+				<h4 class="text-capitalize text-center">Representative players : 3</h4>
 				<br><br>
 			</div>
 				</div>`

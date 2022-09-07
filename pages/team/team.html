@@ -15,27 +15,55 @@
     <title>Document</title>
 </head>
 <body onload="loadTeamData()">
-    <header>
-        <nav class="bg-dark">
-          <ul class="container-flud d-flex">
-            <li class="col-2"><a href="../home/home.html">home</a></li>
-            <li class="col-2"><a href="#">our players</a></li>
-            <li class="col-2"><a href="team.html">Team</a></li>
-            <li class="col-2"><a href="#">vition</a></li>
-            <li class="col-2"><a href="#">contact us</a></li>
-            <li class="col-2"><a href="#">search</a></li>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white px-4 border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2 text-primary" href="../home/home.html">Footballiel</a>
+        <label><i class="fa-solid fa-futbol"></i></label>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../our player/player.html"
+                >Players</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../products/products.js">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../contact us/contact.html">Contact us</a>
+            </li>
           </ul>
-        </nav>
-      </header>
+        </div>
+      </div>
+    </nav>
+  </header>
       <main>
         <h2 class="text-center mt-2">our common Team</h2>
-        <input type="text" class="form-control mt-3 mx-auto" id="myinput"  placeholder="search a player" style="width:30%;">
+        <input type="text" class="form-control mt-3 mx-auto" id="myinput"  placeholder="search a Team" style="width:30%;">
         <div class="container">
           <h3 class="text-danger mt-5 text-center" id="para" style="display:none;">not found</h3>
           <div class="row mt-3" id="card"></div>
         </div>
         <div id="card1" class="row mt-3" ></div>
-      </main>
+      </main>      
       
 </body>
 <script src="../service/teamFetch.js"></script>
